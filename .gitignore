@@ -58,4 +58,16 @@ data/
 config.toml
 config.yaml
 log.ipynb
+settings.json
+
+# SLURM files
+*.err
+*.out
+*.sh
+
+# MACE outputs
+*.model
+results/
+logs/
+checkpoints/
 
